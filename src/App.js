@@ -57,16 +57,16 @@ const CarouselMeta = () => {
 {/*Paragraphe des icônes cliquables de la 3ème slide*/}                
                 <div className="container py-4">
                   <a href="https://addons.mozilla.org/fr/firefox/addon/ether-metamask/" target="_blank" rel="noreferrer">
-                    <img src={browser1} alt="icône de firefox" className="m-2"/>
+                    <img src={browser1} alt="icône de firefox" className="icon m-2"/>
                   </a>
                   <a href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=fr" target="_blank" rel="noreferrer">
-                    <img src={browser2} alt="icône de crome" className="m-2"/>
+                    <img src={browser2} alt="icône de crome" className="icon m-2"/>
                   </a>                    
                   <a href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=fr" target="_blank" rel="noreferrer">
-                    <img src={browser3} alt="icône de brave" className="m-2"/>
+                    <img src={browser3} alt="icône de brave" className="icon m-2"/>
                   </a>                      
                   <a href="https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm?hl=fr" target="_blank" rel="noreferrer">
-                    <img src={browser4} alt="icône de edge" className="m-2"/>
+                    <img src={browser4} alt="icône de edge" className="icon m-2"/>
                   </a>
                 </div>
             </div>
