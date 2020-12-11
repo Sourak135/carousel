@@ -20,6 +20,7 @@ p {
   position: absolute;
   overflow: auto;
 }
+
 .para1 {
   top: 10%;
   bottom: 10%;
@@ -47,4 +48,19 @@ p {
   height: 80%;
   width: 40%;
   left: 60%;
+}
+
+/*les icones tournent lorsqu'ils sont survolés*/
+@media (prefers-reduced-motion: no-preference) {
+  .icon:hover {
+    animation: icon-rotation infinite 2s linear;
+  }
+}
+@keyframes icon-rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

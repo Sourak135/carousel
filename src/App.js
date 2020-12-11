@@ -15,15 +15,15 @@ import browser3 from "./img/browserBrave.png"
 import browser4 from "./img/browserEdge.png"
 
 
-// Seul et unique fonction fléchée du compoent 'CarouselMeta'
+// Seule et unique fonction fléchée du component 'CarouselMeta'
 const CarouselMeta = () => {
   return (
     <div className="container">
       
       <Carousel >
 
-{/*Paragraphe de code de la 1ère slide , fontSize:"5vl"*/}
-          <div className="test"  style={{position:"relative"}}>
+{/*Paragraphe de code de la 1ère slide*/}
+          <div style={{position:"relative"}}>
               <img className="card-title1 img-fluid" src={Metamask1} alt="Prérequis à l'utilisation de la blockchain"/>
               <div className="para para1">
                 <p><b>Avant d'utiliser la blockchain, il nous faudra palier au coût généré par cette interaction.
@@ -45,14 +45,10 @@ const CarouselMeta = () => {
 {/*Paragraphe de code de la 3ème slide*/}
           <div style={{position:"relative"}}>
               <img className="card-title3 img-fluid" src={Metamask3} alt="Se procurer des ETH de test"/>
-              <div className="para para3 px-2">
-                <p className=""><b>METAMASK</b></p>
-              
-              
+              <div className="para para3">
+                <p><b>METAMASK</b></p> 
                 <p><b>MetaMask s'intègre dans votre navigateur web très facilement.</b></p>
-              
-              
-                <p className=""><b>Il nous suffit de l'ajouter en cliquant sur l'une des icônes suivantes en fonction du navigateur utilisé.</b></p>
+                <p><b>Il nous suffit de l'ajouter en cliquant sur l'une des icônes suivantes en fonction du navigateur utilisé.</b></p>
 
 {/*Paragraphe des icônes cliquables de la 3ème slide*/}                
                 <div className="container py-4">
